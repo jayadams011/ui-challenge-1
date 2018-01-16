@@ -23,21 +23,19 @@ p {
 }
 
 .div_b {
-    width: 50%;
-    height: 250px;
-    float: left;
+    width: 100%;
+    height: 150px;
 }
 
 .div_c {
-    width: 50%;
-    height: 250px;
+    width: 100%;
+    height: 125px;
     float: left;
 }
 
 .div_d {
-    width: 50%;
-    height: 250px;
-    float: left;
+    width: 100%;
+    height: 125px;
 }
 
 .div_e{
@@ -53,6 +51,7 @@ p {
 }
 
 .div_g {
+    clear: both;
     width: 50%;
     height: 250px;
     float: left;
@@ -62,6 +61,13 @@ p {
     width: 50%;
     height: 250px;
     float: left;
+}
+
+footer {
+    clear:both;
+    width:inherit;
+    height: 80px;
+
 }
 
  /*portal bigger than 480*/
