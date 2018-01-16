@@ -1,0 +1,78 @@
+
+.container {
+    width: 480px;
+    margin: 0 auto;
+    background-color: #d3d3d3;
+    }
+
+header {
+    width: inherit;
+}
+
+main{
+    widows: inherit;
+}
+p {
+    text-align: center;
+    font-size: 3em;
+}
+
+.div_a {
+    width: 100%;
+    height: 75px;
+}
+
+.div_b {
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+
+.div_c {
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+
+.div_d {
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+
+.div_e{
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+
+.div_f {
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+
+.div_g {
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+
+.div_h {
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+
+ /*portal bigger than 480*/
+  @media (min-width: 760px) {
+    .container {
+      width: 100%;
+      padding: 0; }
+  }
+  
+  /* portal bigger than 768px */
+  @media (min-width: 960px) {
+}
+    
+  
