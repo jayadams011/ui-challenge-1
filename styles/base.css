@@ -2,12 +2,16 @@
     outline: 1px solid #696969;
 }
 
+.page {
+    min-width: 480px;
+}
+
 body {
     max-width: 960px;
-    width 90%;
-    marging 20px auto;
+    margin: 20px auto;
     font-family: 'sans-serif';
     font-size: 100%;
     color: #696969;
+    text-align: center;
     
 }

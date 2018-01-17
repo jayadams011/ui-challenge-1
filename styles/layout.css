@@ -6,79 +6,112 @@
     }
 
 header {
-    width: inherit;
+    min-width: 480px;
+    width:100%;
+    height: 150px;
 }
 
-main{
-    widows: inherit;
+.boxes{
+    min-width: 480px;
+    width:100%;
+    
 }
-p {
+/*p {
     text-align: center;
     font-size: 3em;
+}*/
+
+.featured-boxes {
+    min-width: 480px;
+    width: 100%;
+    height:250px;
 }
 
-.div_a {
+.b, .c, .d {
     width: 100%;
     height: 75px;
 }
 
-.div_b {
+.boxes section:last-child {
+    minwidth: 0;
     width: 100%;
-    height: 150px;
-}
-
-.div_c {
-    width: 100%;
-    height: 125px;
-    float: left;
-}
-
-.div_d {
-    width: 100%;
-    height: 125px;
-}
-
-.div_e{
-    width: 50%;
     height: 250px;
-    float: left;
 }
 
-.div_f {
-    width: 50%;
-    height: 250px;
+.e,.f,.g,.h {
+    /*display: inline-block;*/
     float: left;
+    min-width: 50%;
+    height: 250px;
 }
 
-.div_g {
-    clear: both;
-    width: 50%;
-    height: 250px;
-    float: left;
-}
-
-.div_h {
-    width: 50%;
-    height: 250px;
-    float: left;
+.g {
+    clear:left;
 }
 
 footer {
-    clear:both;
-    width:inherit;
+    min-width:480px;
+    width:100%;
     height: 80px;
-
 }
 
  /*portal bigger than 480*/
-  @media (min-width: 760px) {
-    .container {
-      width: 100%;
-      padding: 0; }
-  }
+  @media only screen and (min-width: 768px) {
+    
   
-  /* portal bigger than 768px */
-  @media (min-width: 960px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        min-width: 0;
+        max-width: 960px;
+        }
+    
+    header {
+        max-width: 960px;
+        width:100%;
+        height: 75px;
+    }
+    
+    .boxes{
+        max-width: 960px;
+        width:100%;
+        float: left;
+    }
+
+    
+    .featured-boxes {
+        min-width: 480px;
+        width: 100%;
+        height:250px;
+    }
+    
+    .b, .c, .d {
+        width: 100%;
+        height: 75px;
+    }
+    
+    .boxes section:last-child {
+        minwidth: 0;
+        width: 100%;
+        height: 250px;
+    }
+    
+    .e,.f,.g,.h {
+        display: inline-block;
+        float: left;
+        min-width: 50%;
+        height: 250px;
+    }
+    
+    .g {
+        clear:left;
+    }
+    
+    footer {
+        min-width:480px;
+        width:100%;
+        height: 80px;
+    }
 }
     
   
