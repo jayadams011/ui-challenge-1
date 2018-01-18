@@ -1,10 +1,9 @@
-*{
-    outline: 1px solid #696969;
-}
 
-.page {
+
+/*.page {
     min-width: 480px;
-}
+}*/
+   
 
 body {
     max-width: 960px;
