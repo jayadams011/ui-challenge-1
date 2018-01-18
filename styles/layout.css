@@ -1,0 +1,131 @@
+
+.container {
+    width: 480px;
+    margin: 0 auto;
+}
+
+.a {
+    padding-top: 25px;
+}
+
+header {
+    min-width: 480px;
+    width:100%;
+    height: 75px;
+    outline: 1px solid #696969;
+    background-color: #d3d3d3;
+}
+
+p{
+    padding-top: 15%;
+}
+
+.b {
+    width: 100%;
+    height: 150px;
+    outline: 1px solid #696969;
+    background-color: #d3d3d3;
+}
+
+.c, .d {
+    width: 100%;
+    height: 125px;
+    outline: 1px solid #696969;
+    background-color: #d3d3d3;
+}
+
+.boxes section:last-child {
+    min-width: 0;
+    width: 100%;
+    outline: 1px solid #696969;
+}
+
+.e,.f,.g,.h {
+    float: left;
+    min-width: 50%;
+    height: 250px;
+    outline: 1px solid #696969;
+    background-color: #d3d3d3;
+}
+
+.i{
+    min-width:480px;
+    float: left;
+    width:100%;
+    height: 80px;
+    outline: 1px solid #3a1111;
+    background-color: #d3d3d3;
+
+}
+
+ /*portal bigger than 480*/
+  @media only screen and (min-width: 768px) {
+    
+  
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        min-width: 0;
+        max-width: 960px;
+
+        }
+
+        .a {
+            padding-top: 95px;
+        }
+        
+    
+    header {
+        max-width: 960px;
+        width:100%;
+        height: 186px;
+    }
+    
+    .boxes{
+        max-width: 960px;
+        width:100%;
+        float: left;
+    }
+   
+    
+    .featured-boxes {
+        min-width: 480px;
+        width: 100%;
+        height:250px;
+    }
+ 
+    .b {
+        width: 18%;
+        height: 600px;
+        outline: 1px solid #696969;
+        background-color: #d3d3d3;
+        float: left;
+    }   
+    
+.c, .d {
+    width: 41%;
+    height: 200px;
+    outline: 1px solid #696969;
+    background-color: #d3d3d3;
+    float: left;
+}
+
+
+.e,.f, .g, .h {
+    min-width: 20.5%;
+    height: 250px;
+    outline: 1px solid #696969;
+    background-color: #d3d3d3;
+}
+
+
+.i{
+    min-width:480px;
+    width: 82%;
+    height: 150px;
+    outline: 1px solid #3a1111;
+    background-color: #d3d3d3;
+}
+}
+    
+  
