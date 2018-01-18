@@ -48,9 +48,9 @@ p{
     background-color: #d3d3d3;
 }
 
-.g {
+/* .g {
     clear:left;
-}
+} */
 
 .i{
     min-width:480px;
@@ -107,7 +107,7 @@ p{
     }   
     
 .c, .d {
-    width: 39.5%;
+    width: 41%;
     height: 200px;
     outline: 1px solid #696969;
     background-color: #d3d3d3;
@@ -123,8 +123,8 @@ p{
 
 .e,.f, .g, .h {
     /*display:inline-block;*/
-    float: left;
-    min-width: 17.7%;
+    /* float: left; */
+    min-width: 20.5%;
     height: 250px;
     outline: 1px solid #696969;
     background-color: #d3d3d3;
@@ -138,15 +138,15 @@ p{
     outline: 1px solid #696969;
     background-color: #d3d3d3;
 }*/
-*.g {
+/*.g {
     clear:left;
-}*
+}*/
 
 .i{
     min-width:480px;
    /* float: left;*/
-    width:72%;
-    height: 80px;
+    width: 82%;
+    height: 150px;
     outline: 1px solid #3a1111;
     background-color: #d3d3d3;
 }
